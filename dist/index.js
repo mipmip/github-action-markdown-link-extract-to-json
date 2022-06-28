@@ -34734,7 +34734,6 @@ try {
   data.inFile = inFile
   data.outFile = outFile
   data.time = (new Date()).toTimeString();
-  data.payload = JSON.stringify(github.context.payload, undefined, 2)
 
   if(fs.existsSync(inFile)) {
     inText = fs.readFileSync(inFile, 'utf-8')
