@@ -2,10 +2,6 @@
 
 Extracts link from a section inside a markdown file and stores them into a json file
 
-# Hello world javascript action
-
-This action extract all links from a markdown file or a configured section and stores them into a json file.
-
 ## Inputs
 
 ### `in-file`
@@ -33,3 +29,5 @@ with:
 - [Quiqr](https://quiqr.org) - Hugo Websites for everyone
 
 ## Contribute
+
+Issues and PR's are welcome. Be polite.

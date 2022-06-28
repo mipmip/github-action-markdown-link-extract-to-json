@@ -1,13 +1,17 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Markdown link extract to json'
+description: 'Extracts link from a section inside a markdown file and stores them into a json file.'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  in-file:
+    description: 'file name to read'
     required: true
-    default: 'World'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+    default: 'README.md'
+  out-file:
+    description: 'file name to write'
+    required: true
+    default: 'out.json'
+  section:
+    description: 'file name to write'
+    required: false
 runs:
   using: 'node16'
   main: 'dist/index.js'
