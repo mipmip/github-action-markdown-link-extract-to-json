@@ -1,0 +1,27 @@
+{
+  "name": "-github-action-markdown-link-extract-to-json",
+  "version": "1.0.0",
+  "description": "Extracts link from a section inside a markdown file and stores them into a json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mipmip/-github-action-markdown-link-extract-to-json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mipmip/-github-action-markdown-link-extract-to-json/issues"
+  },
+  "homepage": "https://github.com/mipmip/-github-action-markdown-link-extract-to-json#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "@actions/github": "^5.0.3"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}
