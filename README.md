@@ -33,3 +33,9 @@ uses: actions/github-action-markdown-link-extract-to-json@v1.1
 with:
   out-filename: './links.json'
   section: '## Links'
+
+## Sponsored by Quiqr
+
+- [Quiqr](https://quiqr.org) - Hugo Websites for everyone
+
+## Contribute
