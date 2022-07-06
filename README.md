@@ -21,7 +21,7 @@ Extracts link from a section inside a markdown file and stores them into a json 
 ```
 uses: actions/github-action-markdown-link-extract-to-json@v1.1
 with:
-  in-file: './links.json'
+  in-file: README.md
   out-file: './links.json'
   section: '## Links'
 ```
