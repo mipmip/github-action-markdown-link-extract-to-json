@@ -1,5 +1,6 @@
 name: 'Markdown link extract to json'
 description: 'Extracts link from a section inside a markdown file and stores them into a json file.'
+icon: 'file-text'
 inputs:
   in-file:
     description: 'file name to read'
