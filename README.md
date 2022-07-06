@@ -30,7 +30,7 @@ with:
 
 <a href="https://github.com/quiqr/quiqr-community-templates"><img src="https://quiqr.org/quir-community-templates-badge.svg" /></a>
 
-This is action is developed for Quiqr Community Templates. It helps converting all links to templates from the README into a json-file which is used by the Quiqr Desktop application.
+This is action is developed for Quiqr Community Templates. It helps converting all links to templates from the README into a json-file which is used by the Quiqr Desktop application. [Open the workflow](https://github.com/quiqr/quiqr-community-templates/blob/main/.github/workflows/generate-json.yml) to see how it works.
 
 [Quiqr](https://quiqr.org) - Hugo Websites for everyone
 
